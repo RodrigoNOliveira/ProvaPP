@@ -10,7 +10,7 @@ import veiculos.Gol;
 import veiculos.Palio;
 import veiculos.Veiculos;
 
-public class App {
+public class Principal {
     public static void main(String[] args) throws Exception {
 
         String[] vetorCliente= {"Ana", "Maria", "Pedro", "Joao"};
@@ -21,6 +21,8 @@ public class App {
         String nomeCliente = vetorCliente[geraNumeroAleatorio(4)];
         v.abastecerCarro(nomeCliente);
         v.parada();
+        v.abrirJanelas();
+        v.abrirPortaMalas();
         System.out.println();
     }       
     }
